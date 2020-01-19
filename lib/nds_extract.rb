@@ -28,7 +28,10 @@ end
 def list_of_directors(source)
   # Write this implementation
   binding.pry
-  
+  arr = []
+  source.each do
+    arr.push()
+  end
 end
 
 def total_gross(source)
