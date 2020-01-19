@@ -32,6 +32,7 @@ def list_of_directors(source)
   source.each do |i|
     arr.push(source[i])
   end
+  arr
 end
 
 def total_gross(source)
