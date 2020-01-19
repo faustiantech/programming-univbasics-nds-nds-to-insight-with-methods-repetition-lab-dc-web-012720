@@ -29,8 +29,8 @@ def list_of_directors(source)
   # Write this implementation
   binding.pry
   arr = []
-  source.each do
-    arr.push()
+  source.each do |i|
+    arr.push(source[i])
   end
 end
 
